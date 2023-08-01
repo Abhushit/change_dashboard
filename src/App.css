@@ -1,0 +1,46 @@
+body{
+    background: #e9e9eb;
+    color:"#2f2e34"
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+
+.ck-editor__editable {
+    min-height: 250px;
+}
+.img_class{
+    height: 100px !important;
+    width: 100px !important;
+}
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+    border-radius: 2px;
+    margin: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #a7a7a7;
+    border-radius: 2px;
+    border: solid 1px #e9e9eb;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #bdbdbd;
+    border-radius: 2px;
+    border: solid 2px #bdbdbd;
+}
+
+@media (max-width:768px) {
+    h1,.h1{
+        font-size: 28px;
+        margin:  0;
+    }
+}
